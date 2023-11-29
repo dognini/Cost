@@ -1,0 +1,55 @@
+.project_datails {
+    padding: 2em;
+}
+
+.project_datails h1,
+.project_datails h2,
+.project_datails p {
+    margin-bottom: 0.5em;
+}
+
+.project_datails h1 {
+    padding: 0.4em;
+    font-size: 1.5em;
+    color: #ffbb33;
+    background-color: #222;
+}
+
+.project_datails span {
+    font-weight: bold;
+}
+
+.details_container,
+.service_form_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    max-height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #222;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #ffbb33;
+    background-color: #222;
+    cursor: pointer;
+}
+
+.project_info {
+    width: 100%;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
